@@ -1,0 +1,24 @@
+body {
+	margin: 0;
+	padding: 0;
+	color: #ddd;
+	background-color: #222;
+	font-family: Helvetica, sans-serif;
+}
+article {
+	margin:4em 12% 5em;
+	max-width:35em;
+	font-size:24px;
+}
+h1 {
+	font:48px sans-serif;
+	font-style: italic;
+	opacity: 0.3;
+}
+p {
+	margin: 1em 0;
+	line-height: 1.4;
+}
+p+p {
+	margin-top: 0;
+}
