@@ -4,20 +4,20 @@ Project: JavaScript Application Log
 
 1. Implement a client-side application log with a revealable user interface.
 2. Solution should be modular to support its use in similar applications.
-3. Use index.html to demonstrate logging solution.
+3. Use the provided index.html and log_some_stuff.js to demonstrate the logging solution.
 
 
 Programming Interface
 ---------------------
 An instance of the Log object should provide a method for each of four log entry severity levels: debug, info, warning, error.
 
-	debug(moduleName, message)
+  debug(moduleName, message)
 
-	info(moduleName, message)
+  info(moduleName, message)
 
-	warning(moduleName, message)
+  warning(moduleName, message)
 
-	error(moduleName, message)
+  error(moduleName, message)
 
 `moduleName` is a string indicating the section of the application that generated the log entry. This will often be the name of a module.
 
@@ -25,7 +25,7 @@ An instance of the Log object should provide a method for each of four log entry
 
 Assuming that `log` contains an instance of the Log object, the following statement should add a log entry that represents an error in MyModule.
 
-	log.error('MyModule', 'Something bad happened.');
+  log.error('MyModule', 'Something bad happened.');
 
 
 User Interface

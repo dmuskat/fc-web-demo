@@ -1,6 +1,5 @@
-var Log;
 
-Log = (function() {
+var Log = (function() {
   function Log() {
     this.showPanel = false;
     this.logArray = [];
